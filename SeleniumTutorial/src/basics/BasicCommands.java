@@ -7,8 +7,9 @@ public class BasicCommands {
 
 	public static void main(String[] args) {
 		// Ctrl+shift+o (to import webdriver and chromedriver)
-        WebDriver driver = new ChromeDriver();
-          
+        WebDriver driver = new ChromeDriver();//parent obj = new child();abstraction using interface 
+        //Webdriver=interface and chrome driver=class
+        
 		//will maximize chrome
         driver.manage().window().maximize();
 		
