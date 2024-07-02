@@ -23,7 +23,7 @@ public class MultipleBrowsers {
 		}
 		driver.manage().window().maximize();//to maximize chrome
 		driver.get("https://www.saucedemo.com/");//to open this url
-		//driver.quit();
+		driver.quit();
 
 	} //if else if ladder need not always end with else, we can give according to our wish, if all the else if conditions are not satisfied
 }     //it will execute else..here else is not required. 
